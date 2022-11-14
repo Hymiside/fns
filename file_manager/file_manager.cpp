@@ -4,7 +4,7 @@
 std::pair<std::vector<int>, bool> read_file()
 {
     std::string line;
-    std::ifstream in("input.txt");
+    std::ifstream in("../data/input.txt");
 
     std::vector<int> numbers;
 
