@@ -3,4 +3,4 @@ project (fns)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(fns main.cpp file_manager/file_manager.cpp file_manager/file_manager.h data/input.txt data/output.txt)
+add_executable(fns main.cpp file_manager/file_manager.cpp file_manager/file_manager.h data/input.txt data/output.txt calc/calc.cpp calc/calc.h)
