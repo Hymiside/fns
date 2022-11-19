@@ -1,7 +1,9 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
+#include <unordered_map>
+
 
 
 std::pair<std::vector<int>, bool> read_file();
-bool write_file(std::vector<int> res);
+void write_file(std::unordered_map<int, std::vector<std::string>> resMap);

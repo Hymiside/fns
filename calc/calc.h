@@ -1,4 +1,6 @@
+#include <string>
 #include "vector"
 
-std::vector<int> calc(int n, int i, int d);
-void createFib();
+int calc(int n, int i, int d, int key = 0);
+void create_fib(std::vector<int>);
+void send_write_file();
